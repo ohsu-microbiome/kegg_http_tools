@@ -4,6 +4,15 @@ Query KEGG for pathways from KEGG Orthologs (KOs).
 ## Goal
 Eventually will allow more query types
 
+## Why?
+There is a MUCH more robust Bioconducter packag called [`KEGGREST`](). However, I was too impatient to figure out how to query the actual pathway names for my KOs. So, based on the past-in KEGG page, I created a few tools to use the exposed REST API that page uses.
+
+Also, according to the [`KEGGREST` docs](http://bioconductor.org/packages/release/bioc/vignettes/KEGGREST/inst/doc/KEGGREST-vignette.html), 
+
+>NOTE: keggGet() can only return 10 result sets at once (this limitation is on the server side). If you supply more than 10 inputs to keggGet(), KEGGREST will warn that only the first 10 results will be returned.
+
+I have found no such limitation in the REST API these tools use.
+
 ## Example:
 
 ```
