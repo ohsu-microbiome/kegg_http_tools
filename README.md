@@ -5,7 +5,7 @@ Query KEGG for pathways from KEGG Orthologs (KOs).
 Eventually will allow more query types
 
 ## Why?
-There is a MUCH more robust Bioconducter packag called [`KEGGREST`](). However, I was too impatient to figure out how to query the actual pathway names for my KOs. So, based on the [past-in KEGG page](https://www.genome.jp/kegg/ko.html), I created a few tools to use the exposed REST API that page uses.
+There is a MUCH more robust Bioconducter packag called [`KEGGREST`](). However, I was too impatient to figure out how to query the actual pathway names for my KOs. So, based on the [paste-in KEGG page](https://www.genome.jp/kegg/ko.html), I created a few tools to use the exposed REST API that page uses.
 
 Also, according to the [`KEGGREST` docs](http://bioconductor.org/packages/release/bioc/vignettes/KEGGREST/inst/doc/KEGGREST-vignette.html), 
 
